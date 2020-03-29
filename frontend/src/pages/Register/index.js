@@ -54,30 +54,30 @@ export default function Logon() {
           <input
             placeholder="Nome da ONG"
             value={name}
-            onchange={e => setName(e.target.value)}
+            onChange={e => setName(e.target.value)}
           />
           <input
             type="email"
             placeholder="E-mail"
             value={email}
-            onchange={e => setEmail(e.target.value)}
+            onChange={e => setEmail(e.target.value)}
           />
           <input
             placeholder="Whatapp"
             value={whatsapp}
-            onchange={e => setWhatsapp(e.target.value)}
+            onChange={e => setWhatsapp(e.target.value)}
           />
           <div className="input-group ">
             <input
               placeholder="Cidade"
               value={city}
-              onchange={e => setCity(e.target.value)}
+              onChange={e => setCity(e.target.value)}
             />
             <input
               placeholder="UF"
               style={{ width: 80 }}
               value={uf}
-              onchange={e => setUf(e.target.value)}
+              onChange={e => setUf(e.target.value)}
             />
           </div>
 
